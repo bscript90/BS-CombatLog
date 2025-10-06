@@ -34,7 +34,7 @@ Here is a system developed precisely for this purpose: Advanced Game Exit Tracki
 ### Free and Open Source
 - All features are offered free of charge, and the system is shared with an open-source code structure. It can be reviewed, customised, and integrated into different structures by developers.
 
-# Insatllation
+# Installation
 - Place the script folder into the resource directory.
 - Navigate to your server.cfg file.
 - Add `ensure BS-CombatLog` to the bottom of your server.cfg file and save it.
