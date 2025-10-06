@@ -1,5 +1,5 @@
 fx_version "cerulean"
-version "1.1"
+version "1.0"
 author "BScript Development"
 description "CombatLog Script"
 game "rdr3"
