@@ -47,7 +47,7 @@ exports("LoadPlayerComponents", LoadPlayerComponents)
 ```
 - Save the file.
 
-> [CFX Release Post](https://forum.cfx.re/t/free-bs-storerobbery-heist-robbery-script-npc-responsive/5280905)
+> [CFX Release Post](https://forum.cfx.re/t/bs-combatlog-free-opensource/5357417)
 
 # Join Discord (24/7 Support)
 > [Discord](https://discord.gg/dxVJ2wxfc6)
