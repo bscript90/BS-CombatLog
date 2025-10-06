@@ -1,4 +1,6 @@
 # BScript Combat Log Script
+![Bs-CombatLogCFX](https://github.com/user-attachments/assets/3e596bd1-1c82-4b76-a0f1-5328b1e1ac27)
+
 ## Hello Masters of the Dusty Paths
 Do you want to maintain role integrity on your server, prevent unfair advantages, and ensure fairness among players?
 Here is a system developed precisely for this purpose: Advanced Game Exit Tracking Script – completely free, open source, performance-friendly, and user-focused.
