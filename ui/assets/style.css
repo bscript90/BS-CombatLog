@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Britney';
+    src: url('./Technocra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    position: absolute;
+    font-family: "Britney", sans-serif;
+    font-size: 0.8vw;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+}
+
+.container .item {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    width: auto;
+    height: auto;
+    /* width: clamp(10vw, calc(14vw - var(--dist, 0) * 0.5vw), 14vw);
+    height: clamp(12vh, calc(18vh - var(--dist, 0) * 0.5vh), 18vh); */
+    background: url('./img/hud_menu_4a.png') center / 100% 100% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.3vh 2vw;
+    gap: 2vh;
+}
+
+.container .item .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.container .item .info .description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    justify-content: space-between;
+}
+
+.container .item .info .description .playerid,
+.container .item .info .description .name,
+.container .item .info .description .reason,
+.container .item .info .description .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vw;
+    text-align: center;
+    align-items: center;
+}
+
+.container .item .info .description .playerid .label,
+.container .item .info .description .name .label,
+.container .item .info .description .reason .label,
+.container .item .info .description .time .label {
+    padding: 0.5vh 0.5vw;
+    border-radius: 0.4vw;
+    --copy-span-shadow-color: rgba(255, 255, 255, 0.5);
+    --copy-span-shadow-spread: 0.08vw;
+    --copy-span-shadow-blur: 0.6vw;
+    box-shadow: inset 0 0 var(--copy-span-shadow-blur) var(--copy-span-shadow-color), 0 0 var(--copy-span-shadow-spread) rgba(0, 0, 0, 0.25);
+}
+
+.container .item .info iconify-icon {
+    font-size: 3vw;
+}
+
+.container .item .copy span {
+    font-size: 1.2vw;
+    background-color: #543413;
+    border: 0.1vw solid #fff;
+    color: whitesmoke;
+    padding: 0 0.25vw;
+    border-radius: 0.4vw;
+    --copy-span-shadow-color: rgba(255, 255, 255, 0.5);
+    --copy-span-shadow-spread: 0.08vw;
+    --copy-span-shadow-blur: 0.6vw;
+    box-shadow: inset 0 0 var(--copy-span-shadow-blur) var(--copy-span-shadow-color), 0 0 var(--copy-span-shadow-spread) rgba(0, 0, 0, 0.25);
+}
+
+.container .item .copy {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    text-align: center;
+    align-items: center;
+    font-size: 1.0vw;
+    letter-spacing: 2px;
+    --copy-shadow-color: rgba(0, 0, 0, 0.6);
+    --copy-shadow-offset-x: 0.06vw;
+    --copy-shadow-offset-y: 0.12vw;
+    --copy-shadow-blur: 0.2vw;
+    text-shadow: var(--copy-shadow-offset-x) var(--copy-shadow-offset-y) var(--copy-shadow-blur) var(--copy-shadow-color);
+}
