@@ -1,6 +1,6 @@
 Citizen.CreateThread(function()
     local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
-        PerformHttpRequest("https://raw.githubusercontent.com/bscript90/bs-versionchecker/refs/heads/main/bs-gangwar.json", function(err, data, headers)
+        PerformHttpRequest("https://raw.githubusercontent.com/bscript90/bs-versionchecker/refs/heads/main/bs-combatlog.json", function(err, data, headers)
         local myData = json.decode(data)
         if myData.version ~= currentVersion then
             print("^3[^5"..GetCurrentResourceName().."^3] ^1┌──────────────────────────────────────────────────────────────────┐^0")
